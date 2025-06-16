@@ -1,0 +1,21 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  --dark-purple-2: #2d1441;
+  --purple: #8c30f5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #fff0 27.7%, #fff 64.82%),
+    url("/src/assets/gradient-bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (max-width: 375px) {
+    background: linear-gradient(180deg, #fff0 27.7%, #fff 64.82%);
+  }
+}
